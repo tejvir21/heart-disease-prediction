@@ -1,6 +1,6 @@
 # Heart Disease Prediction App
 
-A machine learning web application that predicts the likelihood of heart disease based on patient medical data using a K-Nearest Neighbors (KNN) classifier.
+A machine learning web application that predicts the likelihood of heart disease based on patient medical data using various ML Models.
 
 ## Features
 
@@ -57,7 +57,11 @@ The app will open in your default web browser. Fill in the medical parameters an
 - Algorithm: K-Nearest Neighbors (KNN) Classifier
 - Preprocessing: Standard scaling for numerical features, one-hot encoding for categorical variables
 - Model Files:
-  - `KNN_heart_disease_model.pkl`: Trained KNN model
+  - `KNN_heart_disease_prediction_model.pkl`: Trained KNN model
+  - `Logistic_Regression_heart_disease_prediction_model.pkl`: Trained Logistic Regression model
+  - `Decision_Tree_heart_disease_prediction_model.pkl`: Trained Decision Tree model
+  - `Naive_Bayes_heart_disease_prediction_model.pkl`: Trained Naive Bayes model
+  - `SVM_heart_disease_prediction_model.pkl`: Trained Support Vector Machine model
   - `scalar.pkl`: Feature scaler
   - `columns.pkl`: Expected feature columns
 
